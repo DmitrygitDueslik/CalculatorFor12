@@ -1,0 +1,33 @@
+container {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(6, 50px);
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    text-align: center;
+}
+
+price {
+    display: block;
+    border: black solid 1px;
+    background-color: orange;
+}
+
+
+product {
+    display: block;
+    border: black solid 1px;
+    background-color: orange;
+}
+
+name {
+    display: block;
+    border: black solid 1px
+}
+
+value {
+    display: block;
+    border: black solid 1px;
+
+}
