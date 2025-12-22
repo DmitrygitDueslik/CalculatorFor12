@@ -1,0 +1,43 @@
+﻿Сборка начата 23.12.2025 00:26:57.
+Уровень детализации журнала: Normal.     1>Проект "C:\Users\Dmitriy\Desktop\documentation\Calculator\Calculator\Calculator.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "x64\Release\Calculator.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Release\\" /Fd"x64\Release\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt advancedCalculator.cpp asciiTable.cpp basicCalculator.cpp binaryCalculation.cpp digitalSystem.cpp digitalSystem.h
+         advancedCalculator.cpp
+         asciiTable.cpp
+         basicCalculator.cpp
+         binaryCalculation.cpp
+         digitalSystem.cpp
+         digitalSystem.h
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dmitriy\Desktop\documentation\Calculator\x64\Release\Calculator.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dmitriy\Desktop\documentation\Calculator\x64\Release\Calculator.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"x64\Release\Calculator.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dmitriy\Desktop\documentation\Calculator\x64\Release\Calculator.lib" /MACHINE:X64 x64\Release\advancedCalculator.obj
+         x64\Release\asciiTable.obj
+         x64\Release\basicCalculator.obj
+         x64\Release\binaryCalculation.obj
+         x64\Release\Calculator.obj
+         x64\Release\digitalSystem.obj
+         x64\Release\digitalSystem.obj
+         Previous IPDB not found, fall back to full compilation.
+     1>x64\Release\digitalSystem.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+         Создание кода
+         All 68 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Создание кода завершено
+         Calculator.vcxproj -> C:\Users\Dmitriy\Desktop\documentation\Calculator\x64\Release\Calculator.exe
+       FinalizeBuildStatus:
+         Файл "x64\Release\Calculator.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\Calculator.tlog\Calculator.lastbuildstate".
+     1>Сборка проекта "C:\Users\Dmitriy\Desktop\documentation\Calculator\Calculator\Calculator.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "C:\Users\Dmitriy\Desktop\documentation\Calculator\Calculator\Calculator.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         x64\Release\digitalSystem.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:03.33
