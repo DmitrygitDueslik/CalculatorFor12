@@ -134,7 +134,7 @@ void digitalSystem ( )
             temp /= 10;
         }
 
-        // Восьмеричная → десятичная
+        // Восьмеричная ? десятичная
         int dec = 0, power = 1, num = oct;
         while ( num > 0 ) {
             dec += (num % 10) * power;
@@ -190,7 +190,7 @@ void digitalSystem ( )
             len++;
         }
 
-        // Перевод в десятичную (вручную, т.к. `itoa` не поддерживает hex)
+        // Перевод в десятичную (вручную, т.к. `atoi` не поддерживает hex)
         int dec = 0;
         for ( int i = 0; i < len; i++ ) {
             char c = hexInput[i];
@@ -222,5 +222,4 @@ void digitalSystem ( )
     else {
         cout << "Неверный ввод!\n";
     }
-
 }
